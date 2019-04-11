@@ -20,13 +20,13 @@ body {
   padding-bottom: 6rem;
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background: white;
+  background: black;
 }
 .conteinar {
   margin: 0 auto;
-  padding-top: 64px;
+  /* padding-top: 64px;
   max-width: 640px;
-  width: 94%;
+  width: 94%; */
 }
 footer {
   position: fixed;
@@ -41,9 +41,13 @@ h1{
   color: white;
   text-align: center;
 }
-div {
-  width: 500px;
-  height: 300px;
-  border: 1px solid black;
-  text-align: center;
+.line, .circle{
+	border: 2px solid white;
+	height: 300px;
+	display: inline-block;
+	width: 30%;
+	margin: 15px;
+}
+button{
+	margin-left: 40%;
 }
