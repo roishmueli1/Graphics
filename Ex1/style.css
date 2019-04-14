@@ -21,6 +21,7 @@ body {
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   background: black;
+	border: 2px solid yellow;
 }
 .conteinar {
   margin: 0 auto;
@@ -41,13 +42,32 @@ h1{
   color: white;
   text-align: center;
 }
-.line, .circle{
-	border: 2px solid white;
-	height: 300px;
-	display: inline-block;
-	width: 30%;
+h2{
+  color: red;
+	margin-top: -180px;
+  /* text-align: center; */
+}
+.line, .circle, .curve{
+	/* border: 2px solid white; */
+	/* height: 300px; */
+	/* display: inline-block; */
+	/* width: 30%; */
 	margin: 15px;
+
+}
+.board{
+	border: 2px solid blue;
+	height: 420px;
+	margin-left: 220px;
+  margin-right: 25px;
+}
+input#numOfLines {
+    width: 50px;
+
+}
+label{
+	color: #ff6666;
 }
 button{
-	margin-left: 40%;
+	/* margin-left: 40%; */
 }

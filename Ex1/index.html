@@ -9,16 +9,23 @@
     <div class="conteinar">
       <h1> Exercise 1 </h1>
       <body>
+        <section class="board" onmousedown="onClick(event)">
+        </section>
         <section class="line" onmousedown="onClick(event)">
-          <h1> Draw Line </h1>
+          <h2> Draw Line </h2>
           <button onclick="drawLine()">Start</button>
         </section>
         <section class="circle" onmousedown="onClick(event)">
-          <h1> Draw Circle </h1>
+          <h2> Draw Circle </h2>
           <button onclick="drawCircle()">Start</button>
         </section>
+        <section class="curve" onmousedown="onClick(event)">
+          <h2> Draw Curve </h2>
+          <button onclick="drawCurve()">Start</button>
+          <label>Curve lines:</label>
+              <input type="number" name="numOfLines" id="numOfLines" value="10">
 
-
+        </section>
         </body>
     </div>
     <footer>
